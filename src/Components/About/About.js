@@ -12,7 +12,15 @@ const About = () => {
                </div>
            </div>
 
-           <div className="a-right"></div> 
+           <div className="a-right">
+               <h1 className="a-title">About Me</h1>
+               <p className="a-sub">
+                   I am results Oriented, constantly checking in with the goal to determine how close or how far away we are and what will it take to make it happen.
+               </p>
+               <p className="a-desc">
+                    
+               </p>
+            </div> 
         </div>
     )
 }
