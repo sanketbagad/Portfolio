@@ -1,10 +1,10 @@
 import './App.css';
+import Intro from './Components/Intro/Intro';
 
 function App() {
   return (
     <div>
-    Hello world
-    {console.log("Hello")}
+   <Intro />
     </div>
   );
 }

@@ -2,7 +2,10 @@ import React from 'react'
 
 const Intro = () => {
     return (
-        <div>
+        <div className='i'>
+            <div className="i-left">
+                
+            </div>
             
         </div>
     )
