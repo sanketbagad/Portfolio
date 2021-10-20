@@ -8,7 +8,12 @@ const Contact = () => {
           <div className="c-wrapper">
               
               <div className="c-left">
-
+                <h1 className="c-title">
+                    Let's Discuss If Interested About Something
+                </h1>
+                <div className="c-info">
+                    
+                </div>
               </div>
 
 

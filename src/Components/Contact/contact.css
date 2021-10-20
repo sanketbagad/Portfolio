@@ -9,3 +9,16 @@
     background-color: #59b256;
     position: absolute;
 }
+
+.c-wrapper {
+    padding: 50px;
+    display:flex;
+}
+
+.c-left{
+    flex:1;
+}
+
+.c-right{
+    flex:1;
+}
