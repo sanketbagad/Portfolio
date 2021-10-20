@@ -1,6 +1,7 @@
 import React from 'react'
 import Product from '../Product/Product'
 import "./productList.css"
+import { products } from '../../data'
 
 const ProductList = () => {
     return (
@@ -13,7 +14,10 @@ const ProductList = () => {
             </div>
 
             <div className="pl-list">
-                <Product />
+                {products.map(product => (
+                    <Product key={product.id} link={product.link} img={product.img} />
+                ))}
+                
             </div>
         </div>
     )

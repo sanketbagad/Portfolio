@@ -8,6 +8,10 @@ const Product = () => {
               <div className="p-circle"></div>
               <div className="p-circle"></div> 
            </div>
+            <a href="" target="_blank" rel="noopener noreferrer"className="">
+                <img className="p-img" src="" alt="" />
+            </a>
+             
         </div>
     )
 }
