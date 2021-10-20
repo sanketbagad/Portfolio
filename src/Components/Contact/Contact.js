@@ -12,7 +12,9 @@ const Contact = () => {
                     Let's Discuss If Interested About Something
                 </h1>
                 <div className="c-info">
-                    
+                    <div className="c-info-item">
+                        
+                    </div>
                 </div>
               </div>
 
