@@ -1,14 +1,29 @@
-import React, {useRef} from 'react'
+import React, {useRef, useState} from 'react'
 import "./contact.css"
 import Phone from "../../img/phone.png"
 import Email from "../../img/email.png"
 import Address from "../../img/address.png"
+import emailjs from "emailjs-com"
 
 const Contact = () => {
     const formRef = useRef()
+    const [done, setDone] = useState(false)
 
     const handleSubmit = (e) => {
         e.preventDefault()
+        emailjs.sendForm(
+            "service_bzm2igk",
+            "template_mp002gi",
+            formRef.current,
+            "user_vF2FkE5TEWOicVhqsT0YD"
+        ).then(
+            (result) => {
+                setDone(true)
+            }, (error) => {
+                console.log(error.text)
+            }
+        )
+
     }
     return (
         <div className="c">
