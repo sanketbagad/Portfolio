@@ -19,6 +19,29 @@
     flex:1;
 }
 
+.c-titles {
+    font-size: 60px;
+    width: 82%;
+}
+
+.c-info-item {
+    display: flex;
+    align-items: center;
+    margin: 50px 0px;
+    font-weight: 300;
+    width: 70%;
+}
+
+.c-icon {
+    width: 30px;
+    height: 30px;
+    margin-right: 20px;
+}
+
 .c-right{
     flex:1;
+}
+
+.c-desc {
+    font-weight: 200;
 }
