@@ -16,15 +16,15 @@ const Contact = () => {
                 </h1>
                 <div className="c-info">
                     <div className="c-info-item">
-                       <img className="c-icon" src={Phone} alt={9644377621} />
+                       <img className="c-icon" src={Phone} alt="9644377621" />
                         +91 9644377621
                     </div>
                     <div className="c-info-item">
-                       <img className="c-icon" src={Email} alt={9644377621} />
+                       <img className="c-icon" src={Email} alt="sanketbagad.com" />
                         alencolins@gmail.com
                     </div>
                     <div className="c-info-item">
-                       <img className="c-icon" src={Phone} alt={9644377621} />
+                       <img className="c-icon" src={Address} alt="Sanket Bagad" />
                         35 Bombay Plot Road, Near Ambedkar Statue, Khetia (451881), Madhya Pradesh
                     </div>
                 </div>
