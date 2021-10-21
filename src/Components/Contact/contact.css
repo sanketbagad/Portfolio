@@ -80,7 +80,7 @@ button {
     cursor: pointer;
 }
 
-@media  screen and (max-width:400px){
+@media  screen and (max-width:480px){
     .c-wrapper {
         flex-direction: column;
         padding: 0px 50px;

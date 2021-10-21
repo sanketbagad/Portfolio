@@ -49,7 +49,7 @@
     font-weight: 300;
 }
 
-@media screen and (max-width:400px){
+@media screen and (max-width:480px){
     .a{
         flex-direction: column;
         text-align: center;

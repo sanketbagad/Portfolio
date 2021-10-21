@@ -1,32 +1,23 @@
 export const products = [
     {
         id: 1,
-        img: "",
-        link: ""
+        img: "images/sbshop.png",
+        link: "https://sbshops.herokuapp.com/"
     },
     {
         id: 2,
-        img: "",
-        link: ""
+        img: "images/sbcircle.png",
+        link: "https://sbcircle.herokuapp.com/"
     },
     {
         id: 3,
-        img: "",
-        link: ""
+        img: "images/sbchats.png",
+        link: "https://sbchats.netlify.app/chats"
     },
     {
         id: 4,
-        img: "",
-        link: ""
+        img: "images/ai.png",
+        link: "https://sb-ai.netlify.app/"
     },
-    {
-        id: 5,
-        img: "",
-        link: ""
-    },
-    {
-        id: 6,
-        img: "",
-        link: ""
-    },
+    
 ]
