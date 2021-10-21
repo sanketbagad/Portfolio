@@ -36,6 +36,13 @@ const Contact = () => {
                     <b>Have something on Mind?</b> Get in touch. Always want to help on something and if any offer available contact Me. Also can work on Projects
                     If you want some.
                 </p>
+                <form>
+                    <input type="text" placeholder="Name" name="user_name" />
+                    <input type="text" placeholder="Subject" name="user_subject" />
+                    <input type="text" placeholder="Email" name="user_email" />
+                    <textarea name="message" rows="5" placeholder="message" />
+                    <button type="submit">Submit</button>
+                </form>
               </div>
               
           </div>  
