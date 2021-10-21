@@ -1,10 +1,11 @@
-import React from 'react'
+import React, {useRef} from 'react'
 import "./contact.css"
 import Phone from "../../img/phone.png"
 import Email from "../../img/email.png"
 import Address from "../../img/address.png"
 
 const Contact = () => {
+    const formRef = useRef()
     return (
         <div className="c">
           <div className="c-bg"></div>
