@@ -79,3 +79,9 @@ button {
     font-weight: 500;
     cursor: pointer;
 }
+
+@media  screen and (max-width:400px){
+    .c-wrapper {
+        flex-direction: column;
+    }
+}
