@@ -23,7 +23,7 @@ const Intro = () => {
                                 Node JS Developer
                             </div>
                             <div className="i-title-item">
-                                Mongo DB
+                                Mongo DB (Database)
                             </div>
                             <div className="i-title-item">
                                 React Native
