@@ -4,7 +4,7 @@ import "./whatsapp.css"
 const Whatsapp = () => {
     return (
         <a
-        href="https://wa.me/2348100000000"
+        href="https://wa.me/9644377621"
         class="whatsapp_float"
         target="_blank"
         rel="noopener noreferrer"
