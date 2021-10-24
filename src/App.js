@@ -6,6 +6,7 @@ import Intro from './Components/Intro/Intro';
 import ProductList from './Components/ProductList/ProductList';
 import Toggle from './Components/Toggle/Toggle';
 import {ThemeContext} from "./context"
+import Whatsapp from './Components/Whatsapp/Whatsapp';
 
 function App() {
   const theme = useContext(ThemeContext);
@@ -18,6 +19,7 @@ function App() {
       }}
     >
    <Toggle />
+   <Whatsapp />
    <Intro />
    <About />
    <ProductList />
