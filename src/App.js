@@ -18,7 +18,6 @@ function App() {
       }}
     >
    <Toggle />
-   {console.log("Hello")}
    <Intro />
    <About />
    <ProductList />
