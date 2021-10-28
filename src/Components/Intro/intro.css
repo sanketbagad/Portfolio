@@ -99,7 +99,7 @@
     right: 0;
 }
 
-@media  screen and (max-width:480px){
+@media  screen and (max-width:600px){
     .i {
         flex-direction: column;
     }
@@ -116,7 +116,4 @@
         display: none;
     }
 
-    .i-img{
-        display: none;
-    }
 }
