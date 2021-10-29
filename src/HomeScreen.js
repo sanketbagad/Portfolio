@@ -7,7 +7,6 @@ import Toggle from './Components/Toggle/Toggle'
 import './App.css'
 import {ThemeContext} from "./context"
 import Whatsapp from './Components/Whatsapp/Whatsapp';
-import {auth} from "./firebase"
 import { useHistory } from "react-router-dom"
 import {useAuth} from "./contexts/AuthContext"
 const HomeScreen = () => {
