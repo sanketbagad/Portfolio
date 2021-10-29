@@ -9,6 +9,7 @@ const Login = () => {
     return (
         <div id="login-page">
             <div id="login-card">
+                {console.log("Sanket Bagad")}
                 <h2>Welcome This Is Sanket Bagad</h2>
                 <p>For Any Projects or job related Stuff, just login and send the query or can also whatsapp me the details about it</p>
                 <div
