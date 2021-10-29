@@ -1,13 +1,13 @@
-import firebase from "firebase/app"
-import "firebase/auth"
+import firebase from "firebase/compat/app"
+import "firebase/compat/auth"
 
 export const auth = firebase.initializeApp(
     {
-        apiKey: "AIzaSyAj1k4kgGcP_6o_pJKdviuY6iPOCSxnTXY",
-        authDomain: "sbchat-7f8cf.firebaseapp.com",
-        projectId: "sbchat-7f8cf",
-        storageBucket: "sbchat-7f8cf.appspot.com",
-        messagingSenderId: "533485264533",
-        appId: "1:533485264533:web:0b69d5d95ebf394386c59c"
+        apiKey: "AIzaSyC62pZMaWkXgpH1QcwGXTWa7YKSupnZrDI",
+        authDomain: "portfolio-5fa86.firebaseapp.com",
+        projectId: "portfolio-5fa86",
+        storageBucket: "portfolio-5fa86.appspot.com",
+        messagingSenderId: "549671098336",
+        appId: "1:549671098336:web:9c42b55681cbcedea0bd85"
       }
 ).auth()
